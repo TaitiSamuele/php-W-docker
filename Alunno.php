@@ -33,7 +33,7 @@
         }
 
         public function __toString(){
-            $string = "alunno: $this->nome $this->cognome $this->eta\n";
+            $string = "alunno: $this->nome $this->cognome $this->eta<br>";
 
             return $string;
         }

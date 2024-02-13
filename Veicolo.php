@@ -16,7 +16,9 @@
             return $this->anno;
         }
 
-
+        public function __tosting(){
+            return "marca: $marca, anno: $anno";
+        }
 
     }
 

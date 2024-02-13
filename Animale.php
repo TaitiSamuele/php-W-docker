@@ -1,6 +1,9 @@
 <?php
     class Animale{
-        public function __construct()
+        $nome;
+        $eta;
+        
+        Public function __construct()
         {
             
         }

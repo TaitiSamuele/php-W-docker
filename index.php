@@ -13,6 +13,12 @@
         echo $alunno-> __tostring();
     }
 
+    echo "---";
 
+    $veicolo = new Veicolo("opel", "2017");
+    $auto = new Auto("opel", "2017", "corsa");
+
+    $veicolo -> __tostring();
+    $auto -> __tostring();
 
 ?>
